@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="716.0" prefWidth="482.0" style="-fx-background-color: #f6f6f6;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.oracle.chatproject.client.control.RegisterControl">
+   <children>
+      <Label layoutX="72.0" layoutY="62.0" text="账号">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="username" layoutX="152.0" layoutY="59.0" prefHeight="34.0" prefWidth="253.0" />
+      <Label layoutX="72.0" layoutY="123.0" text="密码">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="password" layoutX="152.0" layoutY="119.0" prefHeight="34.0" prefWidth="253.0" />
+      <Label layoutX="72.0" layoutY="184.0" text="昵称">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nickname" layoutX="152.0" layoutY="180.0" prefHeight="34.0" prefWidth="253.0" />
+      <Label layoutX="72.0" layoutY="249.0" text="性别">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <FlowPane layoutX="172.0" layoutY="230.0" prefHeight="49.0" prefWidth="200.0">
+         <children>
+            <RadioButton fx:id="man" mnemonicParsing="false" prefHeight="18.0" prefWidth="58.0" selected="true" text="男">
+               <toggleGroup>
+                  <ToggleGroup fx:id="sex" />
+               </toggleGroup>
+               <FlowPane.margin>
+                  <Insets left="10.0" top="20.0" />
+               </FlowPane.margin>
+            </RadioButton>
+            <RadioButton fx:id="female" mnemonicParsing="false" prefHeight="18.0" prefWidth="57.0" text="女" toggleGroup="$sex">
+               <FlowPane.margin>
+                  <Insets left="10.0" top="20.0" />
+               </FlowPane.margin>
+            </RadioButton>
+         </children>
+      </FlowPane>
+      <Label layoutX="72.0" layoutY="309.0" text="年龄">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="age" layoutX="152.0" layoutY="306.0" prefHeight="34.0" prefWidth="253.0" />
+      <Label layoutX="72.0" layoutY="392.0" text="头像">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="myHead" fitHeight="100.0" fitWidth="100.0" layoutX="172.0" layoutY="358.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/default.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="selectImage" layoutX="303.0" layoutY="419.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="80.0" style="-fx-background-color: #cfcfcf;" text="选择头像" />
+      <Label layoutX="72.0" layoutY="493.0" text="签名">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="signature" layoutX="152.0" layoutY="486.0" prefHeight="134.0" prefWidth="253.0" />
+      <Button fx:id="submitRegister" layoutX="272.0" layoutY="646.0" mnemonicParsing="false" onAction="#register" prefHeight="30.0" prefWidth="40.0" style="-fx-background-color: #cfcfcf;" text="注册" />
+      <Button fx:id="backLogin" layoutX="322.0" layoutY="646.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="80.0" style="-fx-background-color: #cfcfcf;" text="返回登陆" />
+   </children>
+</Pane>

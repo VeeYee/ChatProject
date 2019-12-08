@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Group xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.oracle.chatproject.client.control.MainControl">
+   <children>
+      <AnchorPane prefHeight="760.0" prefWidth="380.0" style="-fx-background-color: #f6f6f6;">
+         <children>
+            <ImageView fx:id="image" fitHeight="95.0" fitWidth="95.0" layoutX="24.0" layoutY="44.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/图片1.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="nickname" layoutX="145.0" layoutY="35.0" prefHeight="32.0" prefWidth="147.0" text="昵称">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <TextArea fx:id="signature" layoutX="139.0" layoutY="83.0" prefHeight="72.0" prefWidth="220.0" text="个性签名">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </TextArea>
+            <TreeView fx:id="tree" layoutX="7.0" layoutY="170.0" onMouseClicked="#choiceFriend" prefHeight="546.0" prefWidth="358.0" style="-fx-background-color: #f6f6f6;" />
+            <Button fx:id="closeBtn" layoutX="304.0" layoutY="14.0" mnemonicParsing="false" onAction="#logout" prefHeight="30.0" prefWidth="54.0" style="-fx-background-color: #cfcfcf;" text="退出">
+               <font>
+                  <Font size="14.0" />
+               </font></Button>
+            <Button fx:id="addFriend" layoutX="14.0" layoutY="722.0" mnemonicParsing="false" onAction="#addFriend" prefHeight="30.0" prefWidth="86.0" style="-fx-background-color: #cfcfcf;" text="添加好友" />
+            <Button fx:id="creatGroup" layoutX="104.0" layoutY="722.0" mnemonicParsing="false" onAction="#creatGroup" prefHeight="30.0" prefWidth="85.0" style="-fx-background-color: #cfcfcf;" text="创建群聊" />
+         </children>
+      </AnchorPane>
+   </children>
+</Group>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Group xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.oracle.chatproject.client.control.AddFriendControl">
+   <children>
+      <AnchorPane prefHeight="304.0" prefWidth="427.0" style="-fx-background-color: #f6f6f6;">
+         <children>
+            <ImageView fx:id="find_image" fitHeight="100.0" fitWidth="100.0" layoutX="60.0" layoutY="155.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/default.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <TextField fx:id="username" layoutX="58.0" layoutY="77.0" prefHeight="38.0" prefWidth="243.0" />
+      <Button fx:id="find" layoutX="336.0" layoutY="81.0" mnemonicParsing="false" onAction="#find" prefHeight="30.0" prefWidth="55.0" style="-fx-background-color: #cfcfcf;" text="搜索">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="31.0" layoutY="31.0" prefHeight="20.0" prefWidth="64.0" text="查找用户">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="find_username" layoutX="198.0" layoutY="154.0" prefHeight="19.0" prefWidth="206.0" text="账号">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="find_nickname" layoutX="198.0" layoutY="187.0" prefHeight="19.0" prefWidth="206.0" text="昵称">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="add" layoutX="195.0" layoutY="226.0" mnemonicParsing="false" onAction="#add" prefHeight="30.0" prefWidth="77.0" style="-fx-background-color: #cfcfcf;" text="确认添加" />
+   </children>
+</Group>

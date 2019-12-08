@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fcc2db7f-3691-4f42-ac71-4113a4195f55" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/Server.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/com/oracle/chatproject/client/model/ChatGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/com/oracle/chatproject/client/model/ChatMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/com/oracle/chatproject/client/model/ChatMessageType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/com/oracle/chatproject/client/model/ChatUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/com/oracle/chatproject/server/control/ChatServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/com/oracle/chatproject/server/dao/UserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oracle/chatproject/client/control/AddFriendControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oracle/chatproject/client/control/ChatControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oracle/chatproject/client/control/ControlCollections.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oracle/chatproject/client/control/CreateGroupControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oracle/chatproject/client/control/GroupChatControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oracle/chatproject/client/control/HeadControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oracle/chatproject/client/control/LoginControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oracle/chatproject/client/control/MainControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oracle/chatproject/client/control/RegisterControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oracle/chatproject/client/model/ChatGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oracle/chatproject/client/model/ChatMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oracle/chatproject/client/model/ChatMessageType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oracle/chatproject/client/model/ChatUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oracle/chatproject/client/utils/AnimationTimerUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oracle/chatproject/client/utils/LayoutUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oracle/chatproject/client/utils/RectUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oracle/chatproject/client/utils/Toast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oracle/chatproject/client/utils/ToastrWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oracle/chatproject/client/view/AddFriend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oracle/chatproject/client/view/Chat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oracle/chatproject/client/view/CreateGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oracle/chatproject/client/view/GroupChat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oracle/chatproject/client/view/Head.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oracle/chatproject/client/view/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oracle/chatproject/client/view/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oracle/chatproject/client/view/Register.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/css/ListView.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/AddFriend.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/Chat.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/CreateGroup.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/GroupChat.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/Head.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/Login.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/Main.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/Register.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/head/100.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/head/101.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/head/102.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/head/103.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/head/104.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/head/105.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/head/106.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/head/107.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/head/108.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/head/109.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/head/110.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/head/111.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/head/112.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/head/113.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/head/114.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/head/115.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/head/116.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/head/117.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/head/118.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/head/119.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/head/120.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/head/121.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/head/122.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/head/123.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/head/124.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/head/125.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/head/126.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/head/127.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/head/128.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/head/129.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/head/130.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/head/131.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/head/132.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/head/133.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/head/134.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/head/135.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/head/136.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/head/137.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/head/138.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/head/139.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/head/140.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/head/default.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/default.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/friends.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/group.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/图片1.png" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="oraclechat@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="oraclechat@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="oraclechat@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="oraclechat: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="oraclechat@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="oraclechat: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="chatfriend: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="oraclechat@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="oraclechat: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="chatgroup: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="oraclechat@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="oraclechat: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="chatuser: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="oraclechat@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="oraclechat: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="user_group: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaFXApplication" />
+        <option value="CSS File" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\Zidea\ChatProject" />
+        <option value="D:\Zidea\ChatProject\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1UPQ2MS6PTsEFHvF8lPVM6dG028" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575189912606" />
+    <property name="database.console.LAST_STATE" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../QQChat" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.14453125" />
+    <property name="project.structure.side.proportion" value="0.26795894" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Zidea\ChatProject\src\main\resources\head" />
+      <recent name="D:\Zidea\ChatProject\src\main\resources\fxml" />
+      <recent name="D:\Zidea\ChatProject\src\main\resources\headimgs" />
+      <recent name="D:\Zidea\ChatProject\src\main\resources\images" />
+      <recent name="D:\Zidea\ChatProject\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.oracle.chatproject.client.model" />
+      <recent name="com.oracle.chatproject.client.utils" />
+      <recent name="com.oracle.chatproject.client.view" />
+      <recent name="dao" />
+      <recent name="com.oracle.chatproject.server.model" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Zidea\ChatProject\src\main\resources\database" />
+      <recent name="D:\Zidea\ChatProject\src\main\resources" />
+      <recent name="D:\Zidea\ChatProject\src\main\java\com\oracle\chatproject\client\dao" />
+      <recent name="D:\idea-workspace\ChatProject\src\main\resources\fxml" />
+      <recent name="D:\idea-workspace\ChatProject\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Login">
+    <configuration name="ChatServer" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.oracle.chatproject.server.control.ChatServer" />
+      <module name="ChatServer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.oracle.chatproject.server.control.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Login" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.oracle.chatproject.client.view.Login" />
+      <module name="ChatProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.oracle.chatproject.client.view.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Login" />
+      <item itemvalue="Application.ChatServer" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ChatServer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\可爱想太阳\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fcc2db7f-3691-4f42-ac71-4113a4195f55" name="Default Changelist" comment="" />
+      <created>1574838342238</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574838342238</updated>
+      <workItem from="1574838345797" duration="15461000" />
+      <workItem from="1574867295923" duration="782000" />
+      <workItem from="1574937299998" duration="1176000" />
+      <workItem from="1575024276199" duration="6010000" />
+      <workItem from="1575072241223" duration="22570000" />
+      <workItem from="1575097820837" duration="1739000" />
+      <workItem from="1575164453021" duration="21792000" />
+      <workItem from="1575255544649" duration="4638000" />
+      <workItem from="1575266642112" duration="4225000" />
+      <workItem from="1575273134353" duration="21282000" />
+      <workItem from="1575339639900" duration="5496000" />
+      <workItem from="1575362197259" duration="21702000" />
+      <workItem from="1575419981022" duration="46942000" />
+      <workItem from="1575541722099" duration="15364000" />
+      <workItem from="1575595357923" duration="4601000" />
+      <workItem from="1575629123410" duration="19446000" />
+      <workItem from="1575681511983" duration="9625000" />
+      <workItem from="1575708058617" duration="131000" />
+      <workItem from="1575777555483" duration="1331000" />
+      <workItem from="1575778932310" duration="277000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="477" y="96" width="583" height="672" key="#ChatServer" timestamp="1575267056575">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="477" y="96" width="583" height="672" key="#ChatServer/0.0.1536.864@0.0.1536.864" timestamp="1575267056575" />
+    <state x="361" y="93" key="#Notifications" timestamp="1575777790974">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="93" key="#Notifications/0.0.1536.864@0.0.1536.864" timestamp="1575777790974" />
+    <state x="506" y="293" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1575429189005">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="506" y="293" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.864@0.0.1536.864" timestamp="1575429189005" />
+    <state x="166" y="100" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575683988319">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="166" y="100" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1575683988319" />
+    <state x="574" y="125" key="#com.intellij.ide.util.MemberChooser" timestamp="1575649808712">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="574" y="125" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1575649808712" />
+    <state x="425" y="96" key="FileChooserDialogImpl" timestamp="1575684849797">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="425" y="96" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1575684849797" />
+    <state x="634" y="327" width="413" height="209" key="Github.ShareDialog" timestamp="1575779206955">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="634" y="327" width="413" height="209" key="Github.ShareDialog/0.0.1536.864@0.0.1536.864" timestamp="1575779206955" />
+    <state x="429" y="124" key="Github.UntrackedFilesDialog" timestamp="1575778507494">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="429" y="124" key="Github.UntrackedFilesDialog/0.0.1536.864@0.0.1536.864" timestamp="1575778507494" />
+    <state width="1493" height="48" key="GridCell.Tab.0.bottom" timestamp="1575703512673">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1237" height="48" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1575701770975" />
+    <state width="1493" height="48" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1575703512673" />
+    <state width="1493" height="48" key="GridCell.Tab.0.center" timestamp="1575703512673">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1237" height="48" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1575701770975" />
+    <state width="1493" height="48" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1575703512673" />
+    <state width="1493" height="48" key="GridCell.Tab.0.left" timestamp="1575703512673">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1237" height="48" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1575701770975" />
+    <state width="1493" height="48" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1575703512673" />
+    <state width="1493" height="48" key="GridCell.Tab.0.right" timestamp="1575703512673">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1237" height="48" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1575701770975" />
+    <state width="1493" height="48" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1575703512673" />
+    <state x="86" y="10" key="SettingsEditor" timestamp="1575778642011">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="86" y="10" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1575778642011" />
+    <state x="619" y="319" width="333" height="231" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1575291709401">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="619" y="319" width="333" height="231" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1536.864@0.0.1536.864" timestamp="1575291709401" />
+    <state x="553" y="259" width="429" height="338" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1575258643449">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="553" y="259" width="429" height="338" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/0.0.1536.864@0.0.1536.864" timestamp="1575258643449" />
+    <state x="520" y="84" width="566" height="687" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1575472044235">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="520" y="84" width="566" height="687" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1536.864@0.0.1536.864" timestamp="1575472044235" />
+    <state x="461" y="259" key="com.intellij.ide.util.TipDialog" timestamp="1575778936925">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="461" y="259" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1575778936925" />
+    <state x="692" y="57" width="698" height="826" key="dock-window-1" timestamp="1575686327618">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="692" y="57" width="698" height="826" key="dock-window-1/0.0.1536.864@0.0.1536.864" timestamp="1575686327618" />
+    <state x="178" y="48" key="new project wizard" timestamp="1575600212657">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="178" y="48" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1575600212657" />
+    <state x="786" y="198" key="run.anything.popup" timestamp="1575376886828">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="786" y="198" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1575376886828" />
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1575649897125">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1575649897125" />
+  </component>
+</project>

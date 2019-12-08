@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="509.0" prefWidth="610.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.oracle.chatproject.client.control.ChatControl">
+   <children>
+      <TextArea fx:id="showMessage" layoutX="14.0" layoutY="46.0" prefHeight="308.0" prefWidth="582.0" />
+      <Button layoutX="537.0" layoutY="361.0" mnemonicParsing="false" onAction="#sendShake" prefHeight="30.0" prefWidth="56.0" style="-fx-background-color: #cfcfcf;" text="抖动" />
+      <TextArea fx:id="editMessage" layoutX="14.0" layoutY="398.0" prefHeight="97.0" prefWidth="582.0" />
+      <Button layoutX="537.0" layoutY="460.0" mnemonicParsing="false" onAction="#sendMessage" prefHeight="30.0" prefWidth="56.0" style="-fx-background-color: #cfcfcf;" text="发送" />
+      <Label fx:id="myFriend" layoutX="284.0" layoutY="14.0" prefHeight="24.0" prefWidth="204.0" text="好友">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

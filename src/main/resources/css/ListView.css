@@ -1,0 +1,7 @@
+
+.list-cell:selected {
+    -fx-background-color: rgba(86, 202, 255, 0.78);
+}
+.list-cell:empty {
+    -fx-background-color: white;
+}

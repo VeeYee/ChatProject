@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="394.0" prefWidth="452.0" style="-fx-background-color: #f6f6f6;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.oracle.chatproject.client.control.LoginControl">
+   <children>
+      <ImageView fx:id="head" fitHeight="100.0" fitWidth="100.0" layoutX="176.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/default.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="82.0" layoutY="192.0" text="账号">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="username" layoutX="145.0" layoutY="187.0" prefHeight="36.0" prefWidth="220.0" />
+      <Label layoutX="82.0" layoutY="244.0" text="密码">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="password" layoutX="145.0" layoutY="240.0" prefHeight="36.0" prefWidth="220.0" />
+      <Button fx:id="loginBtn" layoutX="86.0" layoutY="292.0" mnemonicParsing="false" onAction="#login" prefHeight="41.0" prefWidth="286.0" style="-fx-background-color: #cfcfcf;" text="登  录">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="registerBtn" layoutX="21.0" layoutY="349.0" mnemonicParsing="false" onAction="#register" prefHeight="27.0" prefWidth="90.0" style="-fx-background-color: #f6f6f6;" text="注册账号" textFill="#575252">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="pane" prefHeight="474.0" prefWidth="840.0" style="-fx-background-color: #f6f6f6;" stylesheets="@../css/ListView.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.oracle.chatproject.client.control.CreateGroupControl">
+   <children>
+      <Label layoutX="31.0" layoutY="32.0" prefHeight="15.0" prefWidth="66.0" text="创建群聊">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="63.0" layoutY="94.0" text="群号">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="groupId" layoutX="121.0" layoutY="85.0" prefHeight="38.0" prefWidth="200.0" />
+      <Label layoutX="56.0" layoutY="144.0" text="群名称">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="groupName" layoutX="121.0" layoutY="135.0" prefHeight="38.0" prefWidth="200.0" />
+      <Label layoutX="56.0" layoutY="198.0" text="群简介">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="groupInfo" layoutX="121.0" layoutY="188.0" prefHeight="100.0" prefWidth="200.0" />
+      <Label layoutX="56.0" layoutY="319.0" text="群头像">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="groupImage" fitHeight="100.0" fitWidth="100.0" layoutX="121.0" layoutY="307.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/default.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="select" layoutX="241.0" layoutY="347.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="80.0" style="-fx-background-color: #cfcfcf;" text="选择头像">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Label layoutX="366.0" layoutY="56.0" text="选择好友加入群聊">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="sum" layoutX="603.0" layoutY="56.0" text="已选联系人：1">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Button fx:id="create" layoutX="736.0" layoutY="418.0" mnemonicParsing="false" onAction="#create" prefHeight="30.0" prefWidth="80.0" style="-fx-background-color: #cfcfcf;" text="确认创建" />
+   </children>
+</AnchorPane>

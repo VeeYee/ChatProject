@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="509.0" prefWidth="801.0" stylesheets="@../css/ListView.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.oracle.chatproject.client.control.GroupChatControl">
+    <children>
+        <TextArea fx:id="groupShowMessage" layoutX="14.0" layoutY="46.0" prefHeight="311.0" prefWidth="582.0" />
+        <Button layoutX="537.0" layoutY="361.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="56.0" style="-fx-background-color: #cfcfcf;" text="抖动" />
+        <TextArea fx:id="groupEditMessage" layoutX="14.0" layoutY="398.0" prefHeight="97.0" prefWidth="582.0" />
+        <Button layoutX="537.0" layoutY="460.0" mnemonicParsing="false" onAction="#sendMessage" prefHeight="30.0" prefWidth="56.0" style="-fx-background-color: #cfcfcf;" text="发送" />
+        <Label fx:id="myGroup" layoutX="284.0" layoutY="14.0" prefHeight="24.0" prefWidth="204.0" text="群名">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+      <Label fx:id="sum" layoutX="604.0" layoutY="46.0" text="群成员">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+    </children>
+</Pane>
